@@ -17,7 +17,7 @@ function Planeteer({ name, from, bday, bio, quote, img, tweet }) {
             <p>{`Age: ${new Date().getFullYear() - bday}`}</p>
             <p>
               {
-                from ? "From USA" : "Working Overseas"
+                from ?  "Working Overseas" :"From USA"
               }
             </p>
           </div>
