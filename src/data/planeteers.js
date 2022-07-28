@@ -35,6 +35,33 @@ const arrayOfPlaneteers = [
     quote: "I found something I could do for society.",
     pictureUrl: "https://i.guim.co.uk/img/media/013fcfb2fe5755aabbca1bde23ee0ac6c0e32048/71_0_1260_756/master/1260.jpg?width=1300&quality=45&auto=format&fit=max&dpr=2&s=86c8c4ef954d8790909379da1bf90baa",
     twitter: "@howey_ou"
+  },
+  {
+    "name": "Stonk Man",
+    "fromUSA": true,
+    "born": 2017,
+    "bio": "Stonk Man likes money. He will have no money if the planet is destroyed. That is why Stonk Man wants more climate change action.",
+    "quote": "Stonks",
+    "pictureUrl": "StonkMan.png",
+    "twitter": "@Stonks"
+  },
+  {
+    "name": "Chicken Spongebob",
+    "fromUSA": true,
+    "born": 1999,
+    "bio": "Chicken Spongebob fights climate change deniers (who are paid off by big oil) by making fun of them",
+    "quote": "cLImAtE chAnGE isN't rEAL",
+    "pictureUrl": "chickenspongebob.jpg",
+    "twitter": "@Spongebob"
+  },
+  {
+    "name": "Doge",
+    "fromUSA": true,
+    "born": 2011,
+    "bio": "This dog likes when the planet is not destroyed. He relentlessly mocks climate change deniers and belives in a brighter future",
+    "quote": "Climate Activism is Cool",
+    "pictureUrl": "Doge.webp",
+    "twitter": "@Doge"
   }
 ]
 

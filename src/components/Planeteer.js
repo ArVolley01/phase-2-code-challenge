@@ -14,6 +14,7 @@ function Planeteer({ name, from, bday, bio, quote, img, tweet }) {
           <p className="card__text">{(bio && bio) || (quote && quote) }</p>
           <div className="card__detail">
             <p>{tweet}</p>
+            <p>{`Age: ${new Date().getFullYear() - bday}`}</p>
             <p>
               {
                 from ? "From USA" : "Working Overseas"

@@ -1,10 +1,11 @@
 import React from "react";
 
-function SearchBar({filter}) {
+function SearchBar({filter, setSorting}) {
   return (
     <div className="search">
       <input type="text" className="searchTerm" onChange={(e) => filter(e.target.value)}/>
-      {/* For the advanced deliverables: add a checkbox to allow sorting the planeteer */}
+      <label htmlFor="sort">Sort</label>
+      <input type="checkbox" id="sort" name="sort" onChange={() => setSorting()}></input>
     </div>
   );
 }
